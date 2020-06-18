@@ -1,0 +1,3 @@
+[submodule "bundles/SimpleFlowModel4PCM"]
+	path = bundles/SimpleFlowModel4PCM
+	url = https://github.com/KASTEL-SCBS/SimpleFlowModel4PCM
