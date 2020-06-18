@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="headlesspcm2java4joanaApplication"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="edu.kit.kastel.scbs.pcm2java4joana.PCM2Java4Joana">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="headlesspcm2java4joana"
+         name="Headless PCM2Java4Joana"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="edu.kit.kastel.scbs.pcm2java4joana.headlesspcm2java4joanaApplication"
+            name="Headless PCM2Java4Joana">
+         <property
+               name="appName"
+               value="Headless PCM2Java4Joana">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
